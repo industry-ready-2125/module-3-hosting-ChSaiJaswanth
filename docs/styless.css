@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    border-top: 5px solid red;
+}
+
+div#headt {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    margin-top: 2px;
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.logo div {
+    line-height: 0.5;
+}
+
+
+#hrow {
+    overflow: hidden;
+    margin: auto;
+    width: 1000px;
+}
+
+#hrow .htop {
+    overflow: hidden;
+    margin-right: auto;
+}
+
+#hrow .htop .htop-left {
+    float: left;
+    color: #737373;
+    padding-left: 22px;
+}
+
+div {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#hrow .htop .htop-right {
+    padding-right: 20px;
+    float: right;
+    overflow: hidden;
+}
+
+#hrow .htop .htop-right a {
+    color: #929292;
+    text-decoration: none;
+    margin: 0;
+    display: block;
+    float: left;
+}
+
+#hrow .htop .htop-right a.user {
+    background: maroon;
+    padding: 8px 12px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: #f9f000;
+}
+
+#hrow .htop .htop-right a.agent {
+    background: #185e00;
+    padding: 8px 12px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    margin-left: 1px;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 16px;
+    float: left;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+}
+
+#hrow .htop .phone {
+    font-size: 27px;
+    padding-left: 50px;
+    margin-bottom: 5px;
+    margin-top: 16px;
+    height: 52px;
+}
+
+.clear-line {
+    clear: both;
+}
+
+.menu {
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    color: #006;
+    overflow: hidden;
+    width: 1063px;
+    margin: auto;
+}
+
+.menu a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 2px 15px 1px;
+    font-weight: 700;
+    line-height: 36px;
+    display: block;
+    float: left;
+    border-right: solid 1px #ee2b39;
+}
+
+a {
+    text-decoration: none;
+    color: #008cd4;
+}
+
+a.tab:hover {
+    background: maroon;
+}
+
+.menu-wrap {
+    background: #ee2b39;
+}
+
+.menu {
+    display: block;
+    text-align: left;
+    font-size: 12px;
+    color: #006;
+    overflow: hidden;
+    width: 1063px;
+    margin: auto;
+}

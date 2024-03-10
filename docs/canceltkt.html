@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sai Jaswanth">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styless.css">
+    <link rel="icon" href="apsrtclogo.png">
+    <title>APSRTC Official Website for Online Bus Ticket Booking</title>
+    <style>
+        .b1 {
+            margin: 10px 200px 30px 260px;
+            width: 900px;
+            height: 150px;
+            background-color: white;
+            padding: 20px;
+            border: 2px solid lightgray;
+        }
+
+        .b2 {
+            width: 900px;
+            height: 90px;
+            background-color: rgba(211, 211, 211, 0.297);
+            margin: 1px 200px 10px 1px;
+            border: 2px solid lightgray;
+            backdrop-filter: blur(10px);
+        }
+
+        button {
+            background-color: red;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            padding: 5px 5px;
+            margin-left: 200px;
+        }
+        .btt2 {
+            background-color: red;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            padding: 5px 5px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="hrow">
+        <div class="htop">
+            <div class="logo">
+                <img src="apsrtclogo.png" alt="APSRTC Logo" class="logo">
+                <div>
+                    <h2 style="color:darkblue;">ఆంధ్ర ప్రదేశ్ రాష్ట్ర రోడ్డు రవాణా సంస్థ</h2>
+                    <p style="color:red;">Andhra Pradesh State Road Transport Corporation</p>
+                </div>
+            </div>
+            <div class="htop-left"> </div>
+            <div class="htop-left"> </div>
+            <div class="htop-right">
+                <a href="login.html" class="user">eTicket Login</a>
+                <a href="index.html" class="agent">ATB/OPR Login</a>
+                <div class="clear-line"></div>
+                    <div class="logo">
+                        <h1>&#x2706;</h1>
+                        <p>&nbsp;</p>
+                        <div>
+                            <p>(24/7 Customer Support)</p>
+                            <p>0866 2570005</p>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <div class="menu-wrap">
+            <div class="menu">
+                <a class="seltab" href="/" target="_top" title="Home">Home</a>
+                <a class="tab" href="/" target="_top" title="Ticket Status">Ticket Status</a>
+                <a class="tab" href="canceltkt.html" target="_top" title="Cancel Ticket">Cancel Ticket</a>
+                <a class="tab" href="/" target="_top" title="Track Service">Track Service</a>
+                <a class="tab" href="/" target="_top" title="Gallery">Gallery</a>
+                <a class="tab" href="/" target="_top" title="Wallet">Wallet</a>
+                <a class="tab" href="/" target="_top" title="TimeTable / Track">TimeTable / Track</a>
+                <a class="tab" href="/" target="_blank" title="Logistics">Logistics</a>
+            </div>
+        </div>
+        <div class="b1">
+            <p style="font-size:large;">Cancel Ticket</p>
+            <div class="b2">
+                <form action="index.html">
+                    <br>
+                    <label for="uname">&nbsp;&nbsp;Ticket No.</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" id="uname">
+                    <label for="pwd">&nbsp;&nbsp;UID Number</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="number" id="pwd">
+                    <label for="phno">&nbsp;&nbsp;Mobile No.</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="number" id="phno">
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button>Search</button>
+                    <button type="reset" class="btt2">Reset</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Sai Jaswanth">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="apsrtclogo.png">
+    <link rel="stylesheet" href="styless.css">
+    <title>APSRTC Official Website for Online Bus Ticket Booking</title>
+    <style>
+        .b1 {
+            margin: 10px 200px 30px 260px;
+            width: 900px;
+            height: 510px;
+            background-color: white;
+            padding: 20px;
+            border: 2px solid lightgray;
+        }
+
+        .b2 {
+            width: 450px;
+            height: 450px;
+            background-color: white;
+            margin: 10px 200px 10px 1px;
+            border: 2px solid lightgray;
+            backdrop-filter: blur(10px);
+        }
+
+        label {
+            margin-left: 40px;
+            color: black;
+            font-size: small;
+        }
+
+        button {
+            background-color: red;
+            color: white;
+            text-align: center;
+            cursor: pointer;
+            padding: 5px 5px;
+            margin-left: 200px;
+        }
+
+        ol li {
+            font-size: small;
+        }
+
+        p.mem {
+            font-size: small;
+            margin-left: 80px;
+        }
+
+        h6 {
+            margin-left: 41px;
+        }
+        
+        a {
+            font-weight: bold;
+        }
+        a:hover {
+            background-color:maroon;
+        }
+    </style>
+</head>
+<body>
+    <div id="hrow">
+        <div class="htop">
+            <div class="logo">
+                <img src="apsrtclogo.png" alt="APSRTC Logo" class="logo">
+                <div>
+                    <h2 style="color:darkblue; font-size:x-large;">ఆంధ్ర ప్రదేశ్ రాష్ట్ర రోడ్డు రవాణా సంస్థ</h2>
+                    <p style="color:red;">Andhra Pradesh State Road Transport Corporation</p>
+                </div>
+            </div>
+            <div class="htop-left"> </div>
+            <div class="htop-left"> </div>
+            <div class="htop-right">
+                <a href="login.html" class="user">eTicket Login</a>
+                <a href="index.html" class="agent">ATB/OPR Login</a>
+                <div class="clear-line"></div>
+                <div class="logo">
+                    <h1>&#x2706;</h1>
+                    <p></p>
+                    <div>
+                        <p>(24/7 Customer Support)</p>
+                        <p style="font-size:25px;">0866 2570005</p>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+    <div class="menu-wrap">
+        <div class="menu">
+            <a class="selectedtabcopy" href="/" target="_top" title="Home">Home</a>
+            <a class="tabcopy" href="/" target="_top" title="Ticket Status">Ticket Status</a>
+            <a class="tabcopy" href="canceltkt.html" target="_top" title="Cancel Ticket">Cancel Ticket</a>
+            <a class="tabcopy" href="/" target="_top" title="Track Service">Track Service</a>
+            <a class="tabcopy" href="/" target="_top" title="Gallery">Gallery</a>
+            <a class="tabcopy" href="/" target="_top" title="Wallet">Wallet</a>
+            <a class="tabcopy" href="/" target="_top" title="TimeTable / Track">TimeTable / Track</a>
+            <a class="tabcopy" href="/" target="_blank" title="Logistics">Logistics</a>
+        </div>
+    </div>
+
+
+    <div class="b1">
+        <p style="font-size: large;">Login</p>
+        <div class="b2">
+            <h2 style="text-align:center;">Login Here</h2>
+            <form action="index.html">
+                <label for="uname">User Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="uname">
+                <br><br>
+                <label for="pwd">Password</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <input type="text" id="pwd">
+                <br><br>
+                <button>Login</button>
+            </form>
+            <h6>NOTE:</h6>
+            <ol type="1">
+                <li>To protect your account don't reveal your password to anyone else.</li>
+                <li>For security reasons, keep changing your password at regular intervals.</li>
+                <li>Password must contain alphabets and at least 1 number and 1 special character of !@#$^*().~</li>
+                <li>It is mandatory for you to change the password at the first login or when password is expired.</li>
+            </ol>
+            <br>
+            <p class="mem">New Member? <a href="signup.html">SignUp</a>  &nbsp;|&nbsp;  <a href="index.html">Forgot Password</a></p>
+        </div>
+    </div>
+</body>
+</html>
